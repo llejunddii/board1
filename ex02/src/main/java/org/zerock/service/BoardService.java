@@ -22,6 +22,8 @@ public interface BoardService {
 	Long count(Criteria cri);
 	//7.좋아요 누르기
 	void goodCount(Long bno);
+	//8.시계
+	void hour();
 }
 
 

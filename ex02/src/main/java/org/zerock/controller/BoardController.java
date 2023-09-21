@@ -67,9 +67,9 @@ public class BoardController {
 	
 	// 삭제(글번호-bno) board/remove (post)  <- 입력화면(get)
 	@PostMapping("/remove")
-	public String remove(Long bno,RedirectAttributes rttr) {
+	public String remove(Long bno,String pw,RedirectAttributes rttr) {
 		log.info("삭제 url 요청");
-		if(service.remove(bno)) { //이상없으면 result 이름으로 success 라는 문자 전송
+		if(service.remove(bno, pw)) { //이상없으면 result 이름으로 success 라는 문자 전송
 			rttr.addFlashAttribute("oper", "remove");
 			rttr.addFlashAttribute("result", bno); 
 		}

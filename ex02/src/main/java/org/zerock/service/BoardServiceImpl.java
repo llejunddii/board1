@@ -1,5 +1,6 @@
 package org.zerock.service;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
@@ -67,6 +68,12 @@ public class BoardServiceImpl implements BoardService {
 	public void goodCount(Long bno) {
 		mapper.goodCount(bno);
 		
+	}
+
+	@Override
+	public void hour() {
+		Date now = new Date();
+		log.info("시간 확인 로그 : " + now);
 	}
 
 }

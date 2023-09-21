@@ -59,5 +59,11 @@ public class BoardServiceTests {
 		service.goodCount(38L);
 	}
 	
+	@Test
+	public void TestHour() {
+		log.info("시계 테스트 !!!!!!!!!!!!!");
+		service.hour();
+	}
+	
 	
 }

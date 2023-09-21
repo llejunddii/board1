@@ -50,6 +50,7 @@ public interface BoardMapper {
 	// 좋아요개수 가져오기
 	void goodCount(Long bno);
 	
+	
 	//게시글 페이지 처리 (뒤에)
 	
 	//게시글 검색 (뒤에)

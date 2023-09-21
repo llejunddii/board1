@@ -16,7 +16,7 @@ public interface BoardService {
 	//3.게시글 수정
 	boolean	modify(BoardVO vo);
 	//4.게시글 삭제
-	boolean	remove(Long bno);
+	boolean	remove(Long bno,String pw);
 	//5.게시글 상세보기
 	BoardVO	get(Long bno);
 	//6.전체글 개수 가져오기

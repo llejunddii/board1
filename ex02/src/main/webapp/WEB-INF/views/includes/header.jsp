@@ -53,7 +53,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/board/list">스프링 웹 프로젝트</a>
-            </div> 여기다가 시간 넣으면 되나
+            </div> ${now}
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">

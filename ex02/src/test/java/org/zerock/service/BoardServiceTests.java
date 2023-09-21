@@ -60,9 +60,8 @@ public class BoardServiceTests {
 	}
 	
 	@Test
-	public void TestHour() {
-		log.info("시계 테스트 !!!!!!!!!!!!!");
-		service.hour();
+	public void Testnow() {
+		log.info("시계 테스트 !!!!!!!!!!!!!"+service.now());
 	}
 	
 	

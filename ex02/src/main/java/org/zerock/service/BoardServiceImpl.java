@@ -71,9 +71,10 @@ public class BoardServiceImpl implements BoardService {
 	}
 
 	@Override
-	public void hour() {
+	public Date now() {
 		Date now = new Date();
 		log.info("시간 확인 로그 : " + now);
+		return now;
 	}
 
 }

@@ -34,7 +34,7 @@
                                             <label>내용</label>
                                             <textarea class="form-control" rows="5" placeholder="내용 입력" name="content" readonly >${board.content}</textarea>
                                         </div>
-                                        <a href="/board/modify?bno=${board.bno}&pageNum=${cri.pageNum}&amount=${cri.amount}"><button type="button" class="btn btn-outline btn-warning">수정으로</button></a>
+                                        <a href="/board/modify?bno=${board.bno}&pageNum=${cri.pageNum}&amount=${cri.amount}"><button type="button" class="btn btn-outline btn-warning">수정하기</button></a>
                                         <a href="/board/list?pageNum=${cri.pageNum}&amount=${cri.amount}"><button type="button" class="btn btn-outline btn-primary">목록보기</button></a>
                                 </div>
                                 <!-- /.col-lg-6 (nested) -->

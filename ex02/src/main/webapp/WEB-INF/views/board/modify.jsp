@@ -39,10 +39,7 @@
                                             <textarea class="form-control" rows="5" placeholder="내용 입력" name="content" id="content">${board.content}</textarea>
                                         </div>
                                         <button type="button" class="btn btn-default" data-oper="modify">수정하기</button>
-                                        <div>
-                                        <input type="password" name="pw" id="pw">
-                                        <button type="submit" class="btn btn-default" data-oper="remove">지우기</button>
-                                        </div>
+                                        <button type="button" class="btn btn-default" data-oper="remove">삭제하기</button>
                                         <button type="button" class="btn btn-default" data-oper="list">목록보기</button>
                                      </form>
                                 </div>

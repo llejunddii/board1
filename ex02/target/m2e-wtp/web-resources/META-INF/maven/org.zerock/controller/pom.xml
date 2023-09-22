@@ -21,6 +21,7 @@
 		    <version>1.16</version>
 		</dependency>
 	
+	<!-- mybatis 관련 라이브 러리 시작-->
 		<!--  퍼시스턴스(sql 매핑) 프레임워크 추가 -->
 		<dependency>
 		    <groupId>org.mybatis</groupId>
@@ -47,7 +48,7 @@
 		    <artifactId>spring-jdbc</artifactId>
 		    <version>${org.springframework-version}</version>
 		</dependency>
-		
+	<!-- mybatis 관련 라이브 러리 끝-->
 		
 	
 		<!-- 커넥션 풀 라이브러리-->

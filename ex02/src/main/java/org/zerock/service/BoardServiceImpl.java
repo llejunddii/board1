@@ -47,14 +47,9 @@ public class BoardServiceImpl implements BoardService {
 	}
 
 	@Override
-	public boolean remove(Long bno,String pw) {
+	public boolean remove(Long bno) {
 		log.info("글 삭제 서비스 요청...");
-		if(pw.equals("1234")&&mapper.delete(bno)==1) {
-		return true;
-		}
-		else {
-			return false;
-		}
+		return mapper.delete(bno)==1 ? true : false ;
 	}
 
 	@Override

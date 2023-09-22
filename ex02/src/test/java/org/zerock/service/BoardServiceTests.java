@@ -45,7 +45,7 @@ public class BoardServiceTests {
 	
 	@Test
 	public void TestRemove() {
-		log.info("삭제 서비스:"+service.remove(22L, "1234"));
+		log.info("삭제 서비스:"+service.remove(22L));
 	}
 	
 	@Test
